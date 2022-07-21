@@ -1,6 +1,6 @@
 {
-  "name": "vuex-oidc",
-  "description": "Vue.js implementation of oidc-client using vuex and vue-router",
+  "name": "vuex-oidc-ts",
+  "description": "Vue.js implementation of oidc-client using vuex and vue-router (using TS)",
   "keywords": [
     "vue",
     "vuejs",
@@ -11,12 +11,12 @@
     "vue oidc",
     "vue open id"
   ],
-  "version": "3.10.3",
-  "homepage": "https://github.com/perarnborg/vuex-oidc#readme",
+  "version": "4.0.1",
+  "homepage": "https://github.com/mrhammadasif/vuex-oidc-ts#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perarnborg/vuex-oidc.git"
+    "url": "git+https://github.com/mrhammadasif/vuex-oidc-ts.git"
   },
   "main": "dist/vuex-oidc.cjs.js",
   "module": "dist/vuex-oidc.esm.js",

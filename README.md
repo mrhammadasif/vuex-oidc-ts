@@ -1,22 +1,14 @@
-# vuex-oidc
+# vuex-oidc-ts
 
-Vue.js implementation of [oidc-client](https://github.com/IdentityModel/oidc-client-js) using vuex and vue-router.
+Vue.js implementation of [authts/oidc-client-ts](https://github.com/authts/oidc-client-ts), using vuex and vue-router.
+
+## Forked from vuex-oidc
+
+It is fork from original library, vuex-oidc with upgraded dependencies over [perarnborg/vuex-oidc](https://github.com/perarnborg/vuex-oidc) repo. Because the original library [oidc-client](https://github.com/IdentityModel/oidc-client) is archived and not in maintenance mode, I decided to fork it and publish vuex-oidc-ts, PRs and Contributions to improve it are welcome.
 
 ## Documentation
 
-See the [wiki](https://github.com/perarnborg/vuex-oidc/wiki) for documentation on how to implement vuex-oidc.
-
-## Examples
-
-An example of an implementation can be found [here](https://github.com/perarnborg/vuex-oidc-example).
-
-An example using Nuxt can be found [here](https://github.com/perarnborg/vuex-oidc-example-nuxt).
-
-## Build status
-
-Tests are run on https://travis-ci.org
-
-[![Build Status](https://travis-ci.org/perarnborg/vuex-oidc.svg?branch=master)](https://travis-ci.org/perarnborg/vuex-oidc)
+See the [wiki](https://github.com/mrhammadasif/vuex-oidc-ts/wiki) for documentation on how to implement vuex-oidc.
 
 ## License
 
