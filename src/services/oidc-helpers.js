@@ -79,6 +79,7 @@ export const removeUserManagerEventListener = (oidcUserManager, eventName, event
 }
 
 export const processSilentSignInCallback = (oidcSettings) => {
+  // eslint-disable-next-line new-cap
   return new createOidcUserManager(oidcSettings).signinSilentCallback()
 }
 

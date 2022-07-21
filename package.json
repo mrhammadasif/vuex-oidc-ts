@@ -11,7 +11,7 @@
     "vue oidc",
     "vue open id"
   ],
-  "version": "4.0.1",
+  "version": "4.0.2",
   "homepage": "https://github.com/mrhammadasif/vuex-oidc-ts#readme",
   "license": "MIT",
   "repository": {
@@ -32,16 +32,16 @@
     "acorn": "^7.0.0",
     "atob": "^2.1.2",
     "eslint": "^6.6.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^4.1.0",
     "jsdom": "^15.1.1",
-    "oidc-client-ts": ">= 2.0.0",
     "mocha": "^6.2.0",
     "node-storage-shim": "^2.0.0",
     "nyc": "^14.1.1",
+    "oidc-client-ts": ">= 2.0.0",
     "rollup": "^1.19.4",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.0.2",
@@ -56,10 +56,14 @@
     "lint:fix": "eslint --fix ./src --config=.eslintrc.js",
     "test": "nyc mocha",
     "pretest": "npm run lint && npm run build",
-    "preversion": "npm test"
+    "preversion": "npm test",
+    "prepublish": "npm test"
   },
   "files": [
     "dist",
     "index.d.ts"
-  ]
+  ],
+  "dependencies": {
+    "rollup-plugin-eslint": "^7.0.0"
+  }
 }
