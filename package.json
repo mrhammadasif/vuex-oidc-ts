@@ -46,7 +46,7 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.0.2",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "sinon": "^7.4.1",
+    "sinon": "^14.0.0",
     "vue-router": "~3.1.6"
   },
   "scripts": {
